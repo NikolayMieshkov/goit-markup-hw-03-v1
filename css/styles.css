@@ -1,0 +1,234 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+:root {
+  --accent-color: #2196f3;
+  --logo-header-color: #000000;
+  --main-text-color: #757575;
+  --second-text-color: #ffffff;
+  --third-color: #212121;
+  --fourth-color: #f5f4fa;
+  --additional-color: #2f303a;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--second-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+h1,h2,h3,h4,h5,h6,p,ul {
+  margin: 0;
+  padding: 0;
+}
+.header-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;  
+  outline: 2px solid yellowgreen;
+  background-color: violet;
+  
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  outline: 2px solid tomato;
+  background-color: cyan;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--third-color);
+}
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+  color: var(--accent-color);
+}
+
+.tel-link {
+  color: var(--main-text-color);
+}
+.studio-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.studio-link:active {
+  color: var(--accent-color);
+}
+.header-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.contact:active,
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+.footer-contacts.contact:active,
+.footer-contacts.contact:hover,
+.footer-contacts.contact:focus {
+  color: var(--second-text-color);
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.header-logo {
+  color: var(--logo-header-color);
+}
+
+.hero-section {
+  background-color: var(--additional-color);
+  padding-top: 200px;
+  padding-bottom: 280px;  
+  text-align: center;
+}
+
+.hero-title {  
+  margin-bottom: 30px;
+  width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+  background: var(--accent-color);
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 200px;
+  min-width: 216px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.filters-list {
+  padding-bottom: 50px;
+}
+.btn-filters {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background: var(--fourth-color);
+  border-radius: 4px;
+  color: var(--third-color);
+  border: none;
+}
+.btn-filters:active,
+.btn-filters:hover,
+.btn-filters:focus {
+  background: var(--accent-color);
+  color: var(--second-text-color);
+  border-radius: 4px;
+  border: none;
+}
+.current {
+  color: var(--accent-color);
+}
+.about-section {
+  padding-bottom: 94px;
+  background-color:  orange;
+}
+.work-section {
+  padding: 0;
+}
+.about-list-title {
+  color: var(--third-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.about-list-text {
+  color: var(--main-text-color);
+}
+.work {
+}
+.title {
+  color: var(--third-color);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+}
+.team {
+  background-color: var(--fourth-color);
+  color: var(--third-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.member-name {
+}
+.job-title {
+  color: var(--main-text-color);
+}
+.project-title {
+  color: var(--third-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-note {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-text-color);
+}
+
+.footer-section {
+  background-color: var(--additional-color);
+  padding: 60px 0;
+}
+.footer-contacts {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+.location {
+  color: var(--second-text-color);
+}
+.footer-logo {
+  color: var(--second-text-color);
+}
