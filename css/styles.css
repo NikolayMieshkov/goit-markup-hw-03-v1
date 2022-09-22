@@ -210,7 +210,7 @@ ul {
 /* Work section */
 
 .work-section {
-  padding: 0;
+  padding-top: 94px;
 }
 .work-list {
   display: flex;
