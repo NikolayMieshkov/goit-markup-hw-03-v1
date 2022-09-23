@@ -236,7 +236,7 @@ ul {
   font-size: 19px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .job-title {
   font-weight: 400;
@@ -269,6 +269,7 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 8px;
+  justify-content: center;
 }
 .project-card {
   padding: 20px 24px;
@@ -309,7 +310,16 @@ ul {
   width: 370px;
 }
 .hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 img {
   display: block;
